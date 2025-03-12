@@ -1,8 +1,40 @@
 <html>
-    <head>
-        <title>Home</title>
-    </head>
-    <body>
-        <h1>Hello World 3</h1>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owner Registration</title>
+</head>
+<body>
+    <h2>Owner Registration Form</h2>
+    <form action="form.html" method="post">
+        <table>
+            <tr>
+                <td><label for="owner_name">Owner Name:</label></td>
+                <td><input type="text" id="owner_name" name="owner_name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td><label for="studio_name">Studio/Brand Name:</label></td>
+                <td><input type="text" id="studio_name" name="studio_name"></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone Number:</label></td>
+                <td><input type="tel" id="phone" name="phone" required></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Register as Owner">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
 </html>
