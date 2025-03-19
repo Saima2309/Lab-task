@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 200px;
+    bottom: 100px;
+    background-image: url("background.jpg");
+    border: 5px solid black
+}
+
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+    position: sticky;
+    padding-top: 0px; 
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin: 0 auto;
+    width: 60%;
+    border: 2px solid black;
+    background-color: rgb(219, 219, 193);
+    color: hotpink;
+}
+
+.personal-info,.music-info{
+    display: inline-block;
+    position: relative;
+    padding-top: 200px;
+    padding-right: 10px;
+    padding-bottom: 200px;
+    padding-left: 40px;
+    border: 5px solid rgb(11, 11, 54);    
+    background-color: hotpink;
+    margin: 10px;
+    padding: 68px;
+    width: 47%; 
+    box-sizing: border-box;
+}
+
+
+.center {
+    text-align: center; 
+    margin: 0 auto; 
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    position: relative;
+    top: -20px; 
+    left: 70px;
+    padding: 0 10px; 
+    background-color: rgb(219, 219, 193);
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.form-actions {
+    text-align: center; 
+    margin: 0 auto; 
+    font-weight: bold;
+    font-size: 4em;
+    font-family: sans-serif;
+    position: relative;
+    top: -20px; 
+    left: 40px;
+}
+
+.form-actions:hover {
+    color: hotpink; 
+}
+
+#username {
+    font-weight: bold;
+    color:black;
+}
+
+
