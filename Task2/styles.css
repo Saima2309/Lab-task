@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  background: rgba(232, 225, 225, 0.96);
+  padding: 50px;
+  width: 400px;
+}
+
+legend {
+  text-align: center;
+  font-weight: bolder;
+  font-size: x-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #0008ff;
+}
+
+label {
+  font-weight: bold;
+  font-size: larger;
+  color: #070404ee;
+  display: flex;
+  width: 145px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+.button input[type="submit"] {
+  background: #007bff;
+  color: white;
+
+  cursor: pointer;
+}
+.button input[type="submit"]:hover {
+  background: #ee0909;
+}
