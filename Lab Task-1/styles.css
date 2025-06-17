@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #6f1fc5, #0f53c8b0);
+}
+
+form {
+  background: rgba(232, 225, 225, 0.96);
+  padding: 50px;
+  width: 400px;
+}
+
+legend {
+  text-align: center;
+  font-weight: bolder;
+  font-size: x-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #0e3cf2;
+}
+
+label {
+  font-weight: bold;
+  font-size: larger;
+  color: #070404ee;
+  display: flex;
+  width: 145px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 90px;
+}
+
+.button input[type="submit"] {
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+.button input[type="submit"]:hover {
+  background: #ee0909;
+}
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-left: 10px;
+}
